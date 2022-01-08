@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1> Guests List:</h1>
+    {% include 'partial/searchform.html' %}
+    <br>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                {% for guestbook in guestbook %}
+                    {% if guestbook.status == 'active' %}
+                    <div class="card mb-3 text-light" style=" background-color: rgba(65,3,24,0.7)">
+                        <div class="card-body">
+                            <h2><a href="{% url 'guest_book_update' guestbook.pk %}"><i class="bi bi-pencil-square"
+                                                                                        style="color: white"></i></a>
+                                <a href="{% url 'guest_book_delete' guestbook.pk %}"><i class="bi bi-person-x-fill"
+                                                                                        style="color: white"></i></a>
+                            </h2>
+                            <h2>{{ guestbook.name }}({{ guestbook.email }}) </h2>
+                            <p>{{ guestbook.text }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

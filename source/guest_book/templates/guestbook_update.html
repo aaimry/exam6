@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Update Guest Info {% endblock %}
+{% block nav %}
+    <li class="nav-item">
+        <a class="nav-link text-light" aria-current="page" href="{% url 'guest_book_add' %}">Add new Guest Book</a>
+    </li>
+{% endblock %}
+{% block content %}
+    <h1>Редактировать:</h1>
+    <form method="post">
+        {% include 'partial/form.html' with button_text='UPDATE'%}
+    </form>
+{% endblock %}

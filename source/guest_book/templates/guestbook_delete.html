@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% csrf_token %}
+    <form action="{% url 'guest_book_delete' guestbook.pk %}" method="POST">
+        {% csrf_token %}
+        <h2>Вы хотите удалить эту запись : {{ guestbook.name }}({{ guestbook.email }}) ?</h2>
+        <input type="submit" style="height:35px; width:55px; background-color: #831F42; color: white" value="Да">
+    </form>
+    <br>
+    <a class="btn text-light" style="background-color: #831F42" href="{% url 'index' %}">Нет</a>
+{% endblock %}
