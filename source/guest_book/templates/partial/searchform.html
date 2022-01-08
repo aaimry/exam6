@@ -1,0 +1,6 @@
+{% csrf_token %}
+
+<form class="d-flex" action="{% url 'index' %}">
+    <input  class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search" >
+    <button class="btn text-light" style="background-color: #831F42" type="submit">Search</button>
+</form>

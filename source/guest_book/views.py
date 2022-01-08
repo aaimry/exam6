@@ -5,7 +5,11 @@ from guest_book.models import GuestBook
 
 
 def guest_book_view(request):
-    guestbook = GuestBook.objects.all()
+    search_query = request.GET.get('search', '')
+    if search_query:
+        guestbook = GuestBook.objects.filter(name__icontains=search_query)
+    else:
+        guestbook = GuestBook.objects.all()
     return render(request, 'guestbook.html', {'guestbook': guestbook})
 
 
