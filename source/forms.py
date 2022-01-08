@@ -1,6 +1,6 @@
 from django import forms
 
-from guest_book.models import STATUS_CHOICES, GuestBook
+from guest_book.models import STATUS_CHOICES
 
 
 class GuestBookForm(forms.Form):
