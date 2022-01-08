@@ -11,6 +11,9 @@ class GuestBook(models.Model):
     update_date = models.DateTimeField(null=False, auto_now=True, verbose_name='Дата редактировнаия')
     status = models.CharField(null=False, choices=STATUS_CHOICES, max_length=7, default='active', verbose_name='Cтатус')
 
+def __str__(self):
+    return f'{self.name} {self.email} {self.text} {self.status}'
+
 
 class Meta:
     db_table = 'GuestBook'
