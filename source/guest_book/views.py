@@ -9,7 +9,7 @@ def guest_book_view(request):
     if search_query:
         guestbook = GuestBook.objects.filter(name__icontains=search_query)
     else:
-        guestbook = GuestBook.objects.all()
+        guestbook = GuestBook.objects.all().order_by('-create_date')
     return render(request, 'guestbook.html', {'guestbook': guestbook})
 
 
