@@ -1,0 +1,134 @@
+[
+{
+    "model": "guest_book.guestbook",
+    "pk": 2,
+    "fields": {
+        "name": "aang",
+        "email": "avataraang@gmail.com",
+        "text": "«Вода, Огонь, Земля, Воздух. Когда-то давно четыре народа жили в мире. Но все изменилось, когда народ Огня развязал войну. Только Аватар, властелин всех четырех стихий, мог остановить захватчиков.",
+        "create_date": "2022-01-08T11:56:11.221Z",
+        "update_date": "2022-01-08T11:56:11.221Z",
+        "status": "active"
+    }
+},
+{
+    "model": "guest_book.guestbook",
+    "pk": 3,
+    "fields": {
+        "name": "katara",
+        "email": "katara@gmail.com",
+        "text": "поставьте мильен баллов пожалуйста))))",
+        "create_date": "2022-01-08T12:20:31.214Z",
+        "update_date": "2022-01-08T12:20:31.214Z",
+        "status": "active"
+    }
+},
+{
+    "model": "guest_book.guestbook",
+    "pk": 4,
+    "fields": {
+        "name": "appa",
+        "email": "appabizon@123gmai.com",
+        "text": "123123123",
+        "create_date": "2022-01-08T10:14:52.496Z",
+        "update_date": "2022-01-08T10:14:52.496Z",
+        "status": "blocked"
+    }
+},
+{
+    "model": "guest_book.guestbook",
+    "pk": 5,
+    "fields": {
+        "name": "zuko",
+        "email": "zukolordoffire@gmail.com",
+        "text": "find avatar!!!",
+        "create_date": "2022-01-08T10:15:00.913Z",
+        "update_date": "2022-01-08T10:15:00.913Z",
+        "status": "active"
+    }
+},
+{
+    "model": "guest_book.guestbook",
+    "pk": 6,
+    "fields": {
+        "name": "sokka",
+        "email": "sokka@gmail.com",
+        "text": "djgsfjglsdkfsdjlsn",
+        "create_date": "2022-01-13T00:00:00Z",
+        "update_date": "2022-01-16T00:00:00Z",
+        "status": "blocked"
+    }
+},
+{
+    "model": "guest_book.guestbook",
+    "pk": 8,
+    "fields": {
+        "name": "fdgdfgdf",
+        "email": "admission@tute.edu.cn",
+        "text": "fdgdfgdfgdf",
+        "create_date": "2022-01-08T10:31:26.095Z",
+        "update_date": "2022-01-08T10:31:26.095Z",
+        "status": "blocked"
+    }
+},
+{
+    "model": "guest_book.guestbook",
+    "pk": 11,
+    "fields": {
+        "name": "azula",
+        "email": "azulasad@gmail.com",
+        "text": "shfsdljfnsdvlnflv",
+        "create_date": "2022-01-08T10:54:40.568Z",
+        "update_date": "2022-01-08T10:54:40.568Z",
+        "status": "blocked"
+    }
+},
+{
+    "model": "guest_book.guestbook",
+    "pk": 12,
+    "fields": {
+        "name": "airo",
+        "email": "airo@gmail.com",
+        "text": "kndknsvknskdnfsdknfskdfn",
+        "create_date": "2022-01-08T10:55:21.900Z",
+        "update_date": "2022-01-08T10:55:21.900Z",
+        "status": "active"
+    }
+},
+{
+    "model": "guest_book.guestbook",
+    "pk": 14,
+    "fields": {
+        "name": "qwerty",
+        "email": "qwerty@gmail.com",
+        "text": "dslkvns dkvndl .zdn vlds",
+        "create_date": "2022-01-08T17:44:35Z",
+        "update_date": "2022-01-08T17:44:35Z",
+        "status": "active"
+    }
+},
+{
+    "model": "guest_book.guestbook",
+    "pk": 15,
+    "fields": {
+        "name": "dkfnsdknf",
+        "email": "admission@tute.edu.cn",
+        "text": "sfgmsfnlgknvslkfnvsf",
+        "create_date": "2022-01-08T11:57:02.582Z",
+        "update_date": "2022-01-08T11:57:02.582Z",
+        "status": "active"
+    }
+},
+{
+    "model": "guest_book.guestbook",
+    "pk": 16,
+    "fields": {
+        "name": "HELLO",
+        "email": "Ddui1112@gmail.com",
+        "text": "вмотывмлыв",
+        "create_date": "2022-01-08T12:20:13.162Z",
+        "update_date": "2022-01-08T12:20:13.162Z",
+        "status": "active"
+    }
+}
+]
